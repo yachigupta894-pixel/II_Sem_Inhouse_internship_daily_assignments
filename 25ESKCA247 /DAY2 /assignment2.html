@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+
+    <link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+    
+    <form >
+    
+    <h1 style="color: black;">
+        Registration Form
+    </h1>
+    
+    
+        
+        <h5 id="one">Full Name</h5>
+           
+            <input type="text" id="txtName" placeholder="Enter your Full Name"/>
+        
+            <br>
+
+        <h5 id="three">Email Address</h5>
+        
+         <input type="text" id="txtEmail" placeholder="Enter your Email"/>
+
+        <br><br>
+
+
+         
+         <div class="input-group">
+            <label for="phone">Phone</label>
+         <input type="tel" id="Phone" placeholder="Enter your phone"/>
+            &nbsp;&nbsp;&nbsp:&nbsp;&nbsp;
+            <label>Birth Date</label>
+            <input type="date" id="dob" name="dob"/>
+
+            <br><br>
+            <label>Gender</label>
+            <br>
+            <label>
+                <input type="radio"
+                name="gender" value="Male"/>
+                Male
+
+            </label>
+            &nbsp;&nbsp;&nbsp;
+            <label>
+               <input type="radio"
+               name="gender" value="Female"/>
+               Female
+            </label>
+            &nbsp;&nbsp;&nbsp;
+            <label>
+                <input type="radio"
+                name="gender" value="Other"/>
+                Other
+                
+            </label>
+            <br><br>
+            <h5 id="one">Address</h5>
+            
+            <input type="text" id="txtAddress" Placeholder="enter your address"/>
+           
+                <select name="checkcountry" id="countryname">
+                    <option value="">country</option>
+                    <option value="America">America</option>
+                    <option value="India">India</option>
+                    <option value="Japan">Japan</option>
+                </select>
+            &NonBreakingSpace;
+            <input type="cityname" id="cityname" placeholder="city"/>
+            
+            
+           <button>Submit</button> 
+        
+        
+       
+    </form>
+</body>
+</html>

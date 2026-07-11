@@ -1,0 +1,23 @@
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+.dark {
+    background-color: #222;
+    color: white;
+}
+
+.dark button {
+    background-color: white;
+    color: black;
+}

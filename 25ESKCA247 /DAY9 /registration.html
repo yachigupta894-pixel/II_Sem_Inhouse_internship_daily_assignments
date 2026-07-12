@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="regstyle.css">
+</head>
+
+<body>
+    <div class="whole">
+        <form class="background" action="process.php " method="post" enctype="multipart/form-data">
+            <h1>REGISTRATION FORM</h1>
+            <p>Submit this form for online registration</p>
+            <label for="txtName">name:</label>
+            <input type="text" name="txtName" required placeholder="  Enter Your Name" class="rounded">
+            <label for="txtEmail">email:</label>
+            <input type="email" name="txtEmail" required placeholder="  Enter Your Email" class="rounded">
+            <div class="row">
+                <div class="column">
+                    <label for="PhoneNo">phonemumber</label>
+                    <input type="text" name="PhoneNo" required placeholder="  Enter Your PhoneNo." class="rounded">
+                    <label for="branch">branch</label>
+                    <select name="branch"  class="rounded">
+                        <option value="CSE">CSE</option>
+                        <option value="ECE">ECE</option>
+                        <option value="EEE">EEE</option>
+                        <option value="MECH">MECH</option>
+                    </select>
+                    <br>
+                    <label>
+                Password:
+                <br>
+                <input type="password" name="Password"  />
+            </label>
+            <br>
+                    
+                    <label for="myFile">Upload your profile picture:</label>
+                
+                    <input type="file" name="myFile" accept="image/*" required>
+                    
+                </div>
+
+            </div>
+            <button class="register" type="submit" name="registerBtn">Register</button>
+        </form>
+    </div>
+</body>
+
+</html>
